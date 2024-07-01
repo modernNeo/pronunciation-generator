@@ -30,7 +30,7 @@ def request_detected(driver):
 
 
 def search_for_word(driver, section_indx, section, word_indx, word):
-    search_url = f'{base_url}{word}'
+    search_url = f'{BASE_URL}{word}'
     access_link = True
     while access_link:
         driver.get(search_url)
